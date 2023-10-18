@@ -1,9 +1,10 @@
+//Validate Binary Tree Nodes
+//https://leetcode.com/problems/validate-binary-tree-nodes/description/?envType=daily-question&envId=2023-10-17
 #include <vector>
 #include <deque>
 #include <unordered_set>
 
-//Validate Binary Tree Nodes
-//https://leetcode.com/problems/validate-binary-tree-nodes/description/?envType=daily-question&envId=2023-10-17
+
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, std::vector<int>& leftChild, std::vector<int>& rightChild) {
